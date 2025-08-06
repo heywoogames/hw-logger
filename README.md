@@ -1,11 +1,11 @@
-@cdyw/logger
+@heywoo/hw-logger
 ========
 
-@cdyw/logger is a [log4js](https://github.com/nomiddlename/log4js-node) wrapper  which provides some useful features.  
+@heywoo/hw-logger is a [log4js](https://github.com/nomiddlename/log4js-node) wrapper  which provides some useful features.  
 
 ## Installation
 ```
-npm install @cdyw/logger
+npm install @heywoo/hw-logger
 ```
 
 ## Features
@@ -14,7 +14,7 @@ besides category, you can output prefix as you like in your log
 prefix can be filename, serverId, serverType, host etc  
 to use this feature, you just pass prefix params to getLogger function  
 ```
-var logger = require('@cdyw/logger').getLogger(category, prefix1, prefix2, ...);
+var logger = require('@heywoo/hw-logger').getLogger(category, prefix1, prefix2, ...);
 ```
  log output msg will output with prefix ahead   
 
@@ -94,7 +94,7 @@ the above configuration means reload the configuration file every 30 seconds. Yo
 ## Example
 log.js
 ```
-var logger = require('@cdyw/logger').getLogger('log', __filename, process.pid);
+var logger = require('@heywoo/hw-logger').getLogger('log', __filename, process.pid);
 
 process.env.LOGGER_LINE = true;
 logger.info('test1');

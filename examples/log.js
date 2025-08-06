@@ -1,6 +1,6 @@
 const plogger = require('../lib/logger.js');
 
-//var logger = require('@cdyw/logger').getLogger('log', __filename, process.pid);
+//var logger = require('@heywoo/hw-logger').getLogger('log', __filename, process.pid);
 plogger.configure({
     appenders: {
       console: { type: 'console' },
