@@ -1,0 +1,20 @@
+{
+    "name": "@heywoo/hw-logger",
+    "main": "index.js",
+    "version": "0.0.2",
+    "private": false,
+    "dependencies": {
+        "log4js": "^6.7.1"
+    },
+    "devDependencies": {
+    },
+    "scripts": {
+        "test": "exit 0"
+    },
+    "repository": "https://github.com/heywoogames/hw-logger.git",
+    "author": "shudingbo",
+    "publishConfig": {
+        "@heywoogames:registry": "https://npm.pkg.github.com"
+    }
+
+}
